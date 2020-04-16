@@ -1,0 +1,20 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "esto sera divertido",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack",
+    "build:external":"webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@Bryan-Developer",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  }
+}
